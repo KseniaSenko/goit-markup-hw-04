@@ -199,6 +199,27 @@ img {
   font-weight: 400;
   line-height: 1.5;
 }
+
+/* STRENGTHS-ICON */
+.icon-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+
+  list-style: none;
+}
+.strengths-icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+
+  background-color: var(--light);
+  border-radius: 4px;
+}
 /* --------- WORKS ----- */
 .works {
   padding-bottom: 120px;
